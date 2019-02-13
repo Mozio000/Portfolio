@@ -15,10 +15,12 @@ header {
   margin: 13px auto 0;
   justify-content: space-between;
   font-family: "Segoe WP Semibold", sans-serif;
+
     p{
       font-size: 1.8rem;
       margin: 0;
     }
+
     div{
       display: flex;
       justify-content: space-between;
@@ -28,30 +30,38 @@ header {
           margin: 0 8px 0 2px;
           line-height: 1.1;
         }
+
         ul{
           display: flex;
           justify-content: space-between;
           width: 370px;
           list-style: none;
           margin-top: 8px;
-            li {
-              input {
-                color: white;
-                height: 30px;
-                border: 0;
-                width: 100px;
-                outline: 0;
-                border-radius: 5px;
-                background: linear-gradient(to bottom, #37b2f8, #1f85e7);
-              }
 
-              input:hover {
-                background: red;
-                cursor: pointer;
-              }
-              input:active{
-                background: #7a0707;
-              }
+            li {
+                a{
+                  text-decoration: none;
+                  color: #000;
+                }
+
+                input {
+                  color: white;
+                  height: 30px;
+                  border: 0;
+                  width: 100px;
+                  outline: 0;
+                  border-radius: 5px;
+                  background: linear-gradient(to bottom, #37b2f8, #1f85e7);
+                }
+
+                input:hover {
+                  background: red;
+                  cursor: pointer;
+                }
+
+                input:active{
+                  background: #7a0707;
+                }
             }
         }
    }
